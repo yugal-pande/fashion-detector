@@ -1,25 +1,37 @@
 ML Fashion Item Detector
 
 Base Model Used: YOLO11s
+
 Hardware Used: AMD Ryzen 5600H Processor with 6 Cores and 12 Threads, Nvidia GeForce RTX 3050 Ti GPU (4GB Memory), 16GB RAM
+
 Python Version: 3.12.1 on Windows 11
+
 AI Assistance: Google Antigravity IDE (Gemini 3.8 flash)
 
-Training Dataset Used: 
+Training Dataset Used:
+
 - Hugging Face Fashionpedia: 10000 images for Clothing, Shoes and Accessories (https://huggingface.co/datasets/detection-datasets/fashionpedia)
+
 - Open Images V7 (via FiftyOne's downloader): 1000 images for Jewellery (https://docs.ultralytics.com/datasets/detect/open-images-v7)
+
 Total Dataset size: 11000 images (10000 Fashionpedia images for Clothes, Shoes and Accessories + 1000 Open Images V7 images for Jewellery)
 
 Testing Dataset Used:
+
 22 Random Fashion Images downloaded from Google Search
 
 Fine-tuning Epochs and Time:
+
 The model is fine-tuned on 30 Epochs (10 Epochs on 10000 Fashionpedia images + 20 Epochs on full 11000 images including the Open Images V7 Jewellery images). The fine-tuning took ~6 hours total across all 30 Epochs.
 
 Setup Instructions:
+
 Step 1: Clone the git repo to a local machine.
+
 Step 2: Install all Python Dependencies using: pip install -r requirements.txt
+
 Step 3: Run the model on an image to get the annotated image, the crop images and the JSON Detection Data using the UI. In the UI you can select the input image and change the model to use ('fashion_best.pt' by default), the output folder, Confidence and the max IoU. To run use: python gui.py
+
 Step 4: Additionally the output of the inference is also saved and can be checked in the 'outputs' folder present in the project's root directory by default.
 
 Approach:
@@ -43,10 +55,13 @@ Approach:
 18. After a successfull evaluation of the testing dataset the evaluation report which contains the comparison images, confusion matrices, evaluation report JSON file and the per class metrics containing the Precision, Recall and F1 Scores of all the categories are saved to 'eval_results' folder in the project's root directory by default.
 
 Evaluation Results:
+
 The testing dataset has been populated and annotated. The evaluation report of the model on this testing dataset is present inside the 'eval_results' folder in the project's root directory. Additionally the testing dataset can be used on other images by deleting the existing images, labels, reviews and annotation summary present inside the 'test_dataset' folder and then adding new testing images to the 'test_dataset/images' folder. After this follow Approach points 12 and 13 to annotate the testing images. Then the evaluation can be run on this test dataset.
 
 Future Improvements:
+
 The following improvements could be implemented to improve the model's overall performance which were presently not implemented due to hardware constraints and limited time:
+
 1. Using a more powerful base model like YOLO11m or YOLO11l.
 2. Increasing the training dataset size, especially the jewellery images where the model currently struggles due to lack of adequate images in the training dataset espcially of rings and bracelets.
 3. Increasing the image size (imgsz) from 640 to 960 or 1280.
