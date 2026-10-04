@@ -1,0 +1,14 @@
+numpy
+Pillow
+tqdm
+datasets
+ultralytics
+tensorboard
+wandb
+opencv-python-headless
+matplotlib
+seaborn
+scikit-learn
+pandas
+fiftyone
+torch

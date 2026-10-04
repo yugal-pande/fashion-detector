@@ -1,0 +1,172 @@
+{
+  "per_image": [
+    {
+      "image": "test_img1.jpg",
+      "boxes": {
+        "clothing": 2,
+        "shoes": 1,
+        "accessories": 1,
+        "jewellery": 1
+      }
+    },
+    {
+      "image": "test_img10.jpg",
+      "boxes": {
+        "clothing": 1,
+        "shoes": 2,
+        "accessories": 1,
+        "jewellery": 1
+      }
+    },
+    {
+      "image": "test_img11.jpg",
+      "boxes": {
+        "accessories": 3,
+        "clothing": 5
+      }
+    },
+    {
+      "image": "test_img12.jpg",
+      "boxes": {
+        "clothing": 1,
+        "jewellery": 2
+      }
+    },
+    {
+      "image": "test_img13.jpg",
+      "boxes": {
+        "clothing": 1,
+        "jewellery": 1
+      }
+    },
+    {
+      "image": "test_img14.jpg",
+      "boxes": {
+        "accessories": 1,
+        "clothing": 1,
+        "jewellery": 3
+      }
+    },
+    {
+      "image": "test_img15.jpg",
+      "boxes": {
+        "clothing": 1,
+        "accessories": 1
+      }
+    },
+    {
+      "image": "test_img16.jpg",
+      "boxes": {
+        "clothing": 2,
+        "shoes": 2
+      }
+    },
+    {
+      "image": "test_img17.jpg",
+      "boxes": {
+        "clothing": 2,
+        "accessories": 1
+      }
+    },
+    {
+      "image": "test_img18.jpg",
+      "boxes": {
+        "jewellery": 2,
+        "clothing": 1
+      }
+    },
+    {
+      "image": "test_img19.jpg",
+      "boxes": {
+        "clothing": 2,
+        "shoes": 2
+      }
+    },
+    {
+      "image": "test_img2.jpg",
+      "boxes": {
+        "clothing": 2,
+        "shoes": 2,
+        "accessories": 1
+      }
+    },
+    {
+      "image": "test_img20.jpg",
+      "boxes": {
+        "clothing": 1,
+        "shoes": 2,
+        "jewellery": 1
+      }
+    },
+    {
+      "image": "test_img21.jpg",
+      "boxes": {
+        "jewellery": 2
+      }
+    },
+    {
+      "image": "test_img22.jpg",
+      "boxes": {
+        "jewellery": 2
+      }
+    },
+    {
+      "image": "test_img3.jpg",
+      "boxes": {
+        "clothing": 2,
+        "shoes": 2,
+        "accessories": 3
+      }
+    },
+    {
+      "image": "test_img4.jpg",
+      "boxes": {
+        "clothing": 2,
+        "jewellery": 2
+      }
+    },
+    {
+      "image": "test_img5.jpg",
+      "boxes": {
+        "clothing": 8,
+        "accessories": 1
+      }
+    },
+    {
+      "image": "test_img6.jpg",
+      "boxes": {
+        "clothing": 2,
+        "accessories": 1,
+        "shoes": 1
+      }
+    },
+    {
+      "image": "test_img7.jpg",
+      "boxes": {
+        "clothing": 2,
+        "accessories": 2
+      }
+    },
+    {
+      "image": "test_img8.jpg",
+      "boxes": {
+        "accessories": 1,
+        "clothing": 2,
+        "shoes": 2
+      }
+    },
+    {
+      "image": "test_img9.jpg",
+      "boxes": {
+        "clothing": 2,
+        "shoes": 3
+      }
+    }
+  ],
+  "total_boxes": {
+    "shoes": 19,
+    "accessories": 17,
+    "clothing": 42,
+    "jewellery": 17
+  }
+}

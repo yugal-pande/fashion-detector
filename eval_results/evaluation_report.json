@@ -1,0 +1,220 @@
+{
+  "model": "fashion_best.pt",
+  "test_dir": "D:\\fashion_detector\\test_dataset",
+  "n_images": 22,
+  "conf_threshold": 0.3,
+  "nms_iou": 0.55,
+  "match_iou": 0.5,
+  "overall_metrics": {
+    "accuracy": 0.604,
+    "micro_precision": 0.9104,
+    "micro_recall": 0.6421,
+    "micro_f1": 0.7531,
+    "macro_precision": 0.9362,
+    "macro_recall": 0.62,
+    "macro_f1": 0.7125,
+    "total_gt_boxes": 95,
+    "total_pred_boxes": 67,
+    "total_matched_tp": 61,
+    "total_fp": 6,
+    "total_fn": 34
+  },
+  "per_class_metrics": {
+    "shoes": {
+      "precision": 0.9375,
+      "recall": 0.7895,
+      "f1": 0.8571,
+      "tp": 15,
+      "fp": 1,
+      "fn": 4,
+      "gt_count": 19,
+      "pred_count": 16
+    },
+    "accessories": {
+      "precision": 0.9286,
+      "recall": 0.7647,
+      "f1": 0.8387,
+      "tp": 13,
+      "fp": 1,
+      "fn": 4,
+      "gt_count": 17,
+      "pred_count": 14
+    },
+    "clothing": {
+      "precision": 0.8788,
+      "recall": 0.6905,
+      "f1": 0.7733,
+      "tp": 29,
+      "fp": 4,
+      "fn": 13,
+      "gt_count": 42,
+      "pred_count": 33
+    },
+    "jewellery": {
+      "precision": 1.0,
+      "recall": 0.2353,
+      "f1": 0.381,
+      "tp": 4,
+      "fp": 0,
+      "fn": 13,
+      "gt_count": 17,
+      "pred_count": 4
+    }
+  },
+  "confusion_matrix": [
+    [
+      15,
+      0,
+      0,
+      0,
+      4
+    ],
+    [
+      0,
+      13,
+      0,
+      0,
+      4
+    ],
+    [
+      0,
+      0,
+      29,
+      0,
+      13
+    ],
+    [
+      0,
+      0,
+      0,
+      4,
+      13
+    ],
+    [
+      1,
+      1,
+      4,
+      0,
+      0
+    ]
+  ],
+  "confusion_matrix_labels": [
+    "shoes",
+    "accessories",
+    "clothing",
+    "jewellery",
+    "background"
+  ],
+  "per_image_summary": [
+    {
+      "image": "test_img1.jpg",
+      "n_gt": 5,
+      "n_pred": 3
+    },
+    {
+      "image": "test_img10.jpg",
+      "n_gt": 5,
+      "n_pred": 3
+    },
+    {
+      "image": "test_img11.jpg",
+      "n_gt": 8,
+      "n_pred": 5
+    },
+    {
+      "image": "test_img12.jpg",
+      "n_gt": 3,
+      "n_pred": 1
+    },
+    {
+      "image": "test_img13.jpg",
+      "n_gt": 2,
+      "n_pred": 1
+    },
+    {
+      "image": "test_img14.jpg",
+      "n_gt": 5,
+      "n_pred": 1
+    },
+    {
+      "image": "test_img15.jpg",
+      "n_gt": 2,
+      "n_pred": 2
+    },
+    {
+      "image": "test_img16.jpg",
+      "n_gt": 4,
+      "n_pred": 4
+    },
+    {
+      "image": "test_img17.jpg",
+      "n_gt": 3,
+      "n_pred": 3
+    },
+    {
+      "image": "test_img18.jpg",
+      "n_gt": 3,
+      "n_pred": 1
+    },
+    {
+      "image": "test_img19.jpg",
+      "n_gt": 4,
+      "n_pred": 5
+    },
+    {
+      "image": "test_img2.jpg",
+      "n_gt": 5,
+      "n_pred": 5
+    },
+    {
+      "image": "test_img20.jpg",
+      "n_gt": 4,
+      "n_pred": 3
+    },
+    {
+      "image": "test_img21.jpg",
+      "n_gt": 2,
+      "n_pred": 2
+    },
+    {
+      "image": "test_img22.jpg",
+      "n_gt": 2,
+      "n_pred": 2
+    },
+    {
+      "image": "test_img3.jpg",
+      "n_gt": 7,
+      "n_pred": 9
+    },
+    {
+      "image": "test_img4.jpg",
+      "n_gt": 4,
+      "n_pred": 1
+    },
+    {
+      "image": "test_img5.jpg",
+      "n_gt": 9,
+      "n_pred": 1
+    },
+    {
+      "image": "test_img6.jpg",
+      "n_gt": 4,
+      "n_pred": 3
+    },
+    {
+      "image": "test_img7.jpg",
+      "n_gt": 4,
+      "n_pred": 4
+    },
+    {
+      "image": "test_img8.jpg",
+      "n_gt": 5,
+      "n_pred": 4
+    },
+    {
+      "image": "test_img9.jpg",
+      "n_gt": 5,
+      "n_pred": 4
+    }
+  ]
+}

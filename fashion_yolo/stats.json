@@ -1,0 +1,16 @@
+{
+  "train": {
+    "images": 11000,
+    "shoes": 10069,
+    "accessories": 7156,
+    "clothing": 18400,
+    "jewellery": 1508
+  },
+  "val": {
+    "images": 1235,
+    "shoes": 1564,
+    "accessories": 860,
+    "clothing": 2259,
+    "jewellery": 94
+  }
+}

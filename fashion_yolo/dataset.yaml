@@ -1,0 +1,8 @@
+path: D:\fashion_detector\fashion_yolo
+train: images/train
+val: images/val
+names:
+  0: shoes
+  1: accessories
+  2: clothing
+  3: jewellery
